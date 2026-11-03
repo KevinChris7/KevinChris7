@@ -2,31 +2,42 @@
 
 **Cloud & DevOps Architect | AI Platform Engineering**
 
-11 years building enterprise platform architecture, engineering standards, and governance across **AWS and Azure** — now extending that foundation into **production agentic AI**.
+I build the platforms teams ship on — cloud landing zones, self-managed Kubernetes, GitOps delivery, DevSecOps — and increasingly the **agentic AI systems** that run inside the software delivery lifecycle itself. 11 years across **AWS and Azure**; one of the few platform architects who also ships production AI.
 
-I design and run the systems other teams ship on: cloud landing zones, Kubernetes platforms, GitOps delivery, and DevSecOps — and I build the AI platforms that bring agentic automation into the software delivery lifecycle.
+🏆 **Winner — "AI in SDLC", TCS Engineering Excellence Expo 2026**, for an agentic AI delivery platform.
+
+---
+
+### Flagship platform — one system, four layers
+
+```mermaid
+flowchart TD
+    C["🏗️  aws-landing-zone-terraform<br/>Multi-env AWS foundation · Terraform · governance"]
+    B["⚙️  internal-developer-platform<br/>Golden-path IDP · self-managed K8s · RBAC · Helm/Kustomize"]
+    A["🚀  gitops-argocd-delivery<br/>GitOps delivery · ArgoCD · self-healing · rollback"]
+    F["🤖  agentic-rag-platform<br/>Agentic RAG · Claude · retrieval · evaluation"]
+
+    C --> B --> A
+    F -. AI layer .-> A
+
+    style C fill:#1F3864,color:#fff
+    style B fill:#2E5090,color:#fff
+    style A fill:#3D6B9E,color:#fff
+    style F fill:#7A4F9E,color:#fff
+```
+
+> Foundation → Platform → Delivery, with an agentic-AI layer on top. Each links below as it goes live.
 
 ---
 
 ### What I work on
 
 - **Cloud & Platform Architecture** — AWS & Azure, landing zones, multi-account/multi-subscription governance, cost & security frameworks
-- **Kubernetes & GitOps** — self-managed clusters, Helm/Kustomize, ArgoCD-based continuous delivery, drift detection & self-healing
-- **DevSecOps** — supply-chain security, image signing, SonarQube/Trivy/OWASP integrated into CI/CD
+- **Kubernetes & GitOps** — self-managed clusters (kubeadm), Helm/Kustomize, ArgoCD delivery, drift detection & self-healing
+- **DevSecOps** — supply-chain security, image signing, SonarQube/Trivy/OWASP in CI/CD
 - **AI Platform Engineering** — agentic AI, LLM/RAG pipelines, Anthropic Claude, Model Context Protocol (MCP), Azure AI Foundry
 
----
-
-### Flagship Projects
-
-These four repos form one layered platform story — foundation → platform → delivery → AI.
-
-| Project | What it is |
-|---|---|
-| **[aws-landing-zone-terraform](https://github.com/KevinChris7/aws-landing-zone-terraform)** | Multi-environment AWS landing zone — modular Terraform, remote state, governance guardrails |
-| **[internal-developer-platform](https://github.com/KevinChris7/internal-developer-platform)** | Golden-path Internal Developer Platform — self-service onboarding, RBAC, standardized Helm/Kustomize |
-| **[gitops-argocd-delivery](https://github.com/KevinChris7/gitops-argocd-delivery)** | GitOps delivery with ArgoCD — auto-sync, self-healing, drift detection, Git-based rollback |
-| **[agentic-rag-platform](https://github.com/KevinChris7/agentic-rag-platform)** | Agentic RAG platform — multi-hop retrieval, Claude integration, evaluation & tracing |
+**Currently:** building production-grade, open-source platform + agentic-AI projects (linked above as they ship).
 
 ---
 
@@ -40,16 +51,10 @@ These four repos form one layered platform story — foundation → platform →
 
 ---
 
-### Recognition
-
-🏆 **Winner — "AI in SDLC" category**, TCS Engineering Excellence Expo 2026 — for an agentic AI delivery platform.
-
----
-
 ### Tech
 
 `AWS` · `Azure` · `Kubernetes` · `Terraform` · `Ansible` · `Helm` · `ArgoCD` · `Docker` · `GitHub Actions` · `Jenkins` · `Prometheus` · `Grafana` · `Python` · `Claude API` · `MCP` · `Azure AI Foundry`
 
 ---
 
-📫 **[LinkedIn](https://linkedin.com/in/kevincclement)** ·
+📫 **[LinkedIn](https://linkedin.com/in/kevincclement)**
